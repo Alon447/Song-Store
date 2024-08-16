@@ -1,0 +1,72 @@
+
+  
+  .header {
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .static-title {
+    width: 150px;
+    /* padding: 50px; */
+    /* margin-right: 20px; */
+    margin-inline: 40px;
+
+}
+  .logo {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px
+
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px
+  }
+  
+  .header-right a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .header-right .signout-button:hover {
+    background-color: red;
+  }
+
+  .header-right .searchSongs-button:hover {
+    background-color: pink;
+    color: black;
+  }
+  .window-title{
+    font-size: 30px;
+  }
+  .welcome-text {
+    font-size: 32px;
+    text-align: center;
+    max-width: 450px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+  }
+
+.saleswindow-button,
+.signout-button,
+.statistics-button,
+.searchSongs-button {
+  width: auto;
+  height: 60px;
+}

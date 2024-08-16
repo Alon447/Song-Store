@@ -1,0 +1,11 @@
+.deleted-row {
+  text-decoration: line-through;
+  background-color: #d0cdcd; 
+}
+
+.table-cell {
+  max-width: 100px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

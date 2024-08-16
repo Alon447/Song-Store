@@ -1,0 +1,35 @@
+.sales-window-logo{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.salesWindow {
+    max-width: 92%;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.sales-table-cell{
+  max-width: 50px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sales-deleted-row{
+  text-decoration: line-through;
+  background-color: #d0cdcd; 
+}
+
+.table-cell {
+  max-width: 100px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+  

@@ -1,0 +1,98 @@
+
+.search-header {
+  background-color: wheat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  margin-bottom: 40px;
+}
+
+.search {
+  /* width: 84.2rem; */
+  min-width: 98.5%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.main {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.logo{
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.search-header-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* max-width: 50%; */
+}
+
+.search-header-right {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  max-width: 50%;
+  justify-content: stretch;
+}
+
+.search-header-right a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.search-header-right .saleswindow-button:hover {
+  background-color: green;
+}
+
+.search-header-right .signout-button:hover {
+  background-color: red;
+}
+
+.search-header-right .statistics-button:hover {
+  background-color: purple;
+}
+
+.search-title{
+  width: 150px;
+  margin-inline: 40px;
+  font-size: 24px;
+}
+
+.search-text {
+  font-size: 32px;
+  text-align: center;
+}
+.cart-button:hover .MuiBadge-badge {
+  background-color: red; 
+  transform: scale(1.2); 
+}
+
+
+.search-text{
+  max-width: 450px; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+
+.saleswindow-button,
+.signout-button,
+.statistics-button {
+  width: auto;
+  height: 60px;
+}
